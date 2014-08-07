@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Bring in the bants?</title>
+	<style type="text/css">
+	* {
+		margin:0;
+		padding:0;
+		font-family:monospace;
+		font-size:12px;
+	}
+	img.cat{
+		display:none;
+	}
+	.buy{
+		position:absolute;
+		bottom:10px;
+		left:10px;
+	}
+	.social{
+		position:absolute;
+		bottom:10px;
+		right:10px;
+	}
+	.social-inner{
+		float:left;
+		padding-left:20px;
+	}
+	.twitt{
+		position:absolute;
+		top:10px;
+		right:10px;
+	}
+	</style>
+	<script src="/jquery.js"></script>
+	<script type="text/javascript" src="/paper.js"></script>
+	<script src="/mediaelement.min.js"></script>
+	<script type="text/paperscript" canvas="myCanvas" src="/main.js?1"></script>
+</head>
+<body>
+	<img src="./crang.png" id="cat1" class="cat">
+	<img src="./crang.png" id="cat2" class="cat">
+	<img src="./crang.png" id="cat3" class="cat">
+	<canvas id="myCanvas" resize="" width="1676" height="845"></canvas>
+	<audio id="cats" autoplay="" autobuffer="" preload="none" loop="" style="display:none" src="cats.mp3">
+	  <source src="cats.mp3" type="audio/mpeg">
+	  <source src="cats.ogg" type="audio/ogg">
+	</audio>
+</body></html>
